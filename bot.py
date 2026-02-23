@@ -13,8 +13,8 @@ from telegram.ext import Application, MessageHandler, CommandHandler, filters, C
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("8536077637:AAG0n3GCD7Ed19-h81xlthj8Xr4J2A67DXU")
-UNSPLASH_KEY = os.environ.get("XV-JbxQJewZkkoP6b1D6p_uYSrguwNaCZJJb_v3hI_A")
+TOKEN = os.environ.get("BOT_TOKEN")
+UNSPLASH_KEY = os.environ.get("UNSPLASH_KEY")
 HINDI_FONT = "/usr/share/fonts/truetype/noto-hindi.ttf"
 FALLBACK_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 OUTPUT_DIR = "/tmp/videobot"
